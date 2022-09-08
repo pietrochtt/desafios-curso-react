@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+.oferta {
+    display: inline;
+    color: red;
+}

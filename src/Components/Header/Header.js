@@ -1,19 +1,22 @@
 import React from "react";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import "./Header.css"
+import { Nav } from './Nav/Nav.js'
 
 const Header = () => {
+
+    const secciones = [
+        {id:0, nombre: 'Seccion 1'},
+        {id:1, nombre: 'Seccion 2'},
+        {id:2, nombre: 'Seccion 3'},
+        {id:3, nombre: 'Seccion 4'},
+    ]
+
     return(
         <header>
             <SportsSoccerIcon className="icon"/>
             <h1>Titulo Pagina</h1>
-            <nav>
-                <a href="">Seccion 1</a>
-                <a href="">Seccion 2</a>
-                <a href="">Seccion 3</a>
-            </nav>
-            <ShoppingCartIcon className="icon"/>
+            <Nav secciones={secciones}></Nav>
         </header>
     )
 }
