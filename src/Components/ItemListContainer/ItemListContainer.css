@@ -3,11 +3,19 @@
     justify-content: center;
 }
 
-p {
+h3 {
     font-size: 30px;
 }
 
 .oferta {
     display: inline;
     color: red;
+    margin-left: 10px;
+}
+
+.counter {
+    width: fit-content;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 100px;
 }
