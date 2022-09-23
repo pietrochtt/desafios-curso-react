@@ -1,7 +1,7 @@
 import React from "react";
 import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import "./Header.css"
-import { Nav } from './Nav/Nav.js'
+import Nav from './Nav/Nav.js'
 
 const Header = () => {
 
@@ -16,7 +16,7 @@ const Header = () => {
         <header>
             <SportsSoccerIcon className="icon"/>
             <h1>Titulo Pagina</h1>
-            <Nav secciones={secciones}></Nav>
+            <Nav secciones={secciones}/>
         </header>
     )
 }

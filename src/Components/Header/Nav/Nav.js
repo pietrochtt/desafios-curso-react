@@ -1,7 +1,7 @@
 import React from "react";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-export const Nav = ({secciones}) => {
+const Nav = ({secciones}) => {
     return(
         <nav>
             {secciones.map((seccion) => {
@@ -14,3 +14,4 @@ export const Nav = ({secciones}) => {
     )
 }
 
+export default Nav;

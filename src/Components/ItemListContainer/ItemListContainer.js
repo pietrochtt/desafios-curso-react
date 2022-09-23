@@ -4,13 +4,13 @@ import { ItemCount } from './ItemCount';
 import { ItemList } from "../ItemList/ItemList";
 import { useEffect, useState } from "react"
 
-
+//DATA DE TODOS LOS PRODUCTOS
 const productos = [
     {id: 1, name: "Remera Oficial Boca Juniors", price: "$21000"},
     {id: 2, name: "Remera Oficial Manchester City", price: "$23000"},
     {id: 3, name: "Remera Oficial Talleres", price: "$19000"},
 ]
-export const ItemListContainer = ({oferta}) => {
+const ItemListContainer = ({oferta}) => {
 
     const [ data, setData ] = useState([])
 
@@ -39,3 +39,5 @@ export const ItemListContainer = ({oferta}) => {
         </>
     )
 }
+
+export default ItemListContainer;
