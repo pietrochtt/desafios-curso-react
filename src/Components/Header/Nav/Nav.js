@@ -1,14 +1,16 @@
 import React from "react";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link, NavLink } from "react-router-dom";
 
 const Nav = ({secciones}) => {
     return(
         <nav>
             {secciones.map((seccion) => {
-                return <a key={seccion.id} href="">{seccion.nombre}</a>
+                return <NavLink key={seccion.id} to={seccion.ruta}>{seccion.nombre}</NavLink>
             })}
-
-            <ShoppingCartIcon className="icon"/>
+            <Link to='/cart'>
+                <ShoppingCartIcon className="icon"/>
+            </Link>
             
         </nav>
     )

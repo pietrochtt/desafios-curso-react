@@ -4,7 +4,8 @@ const ItemDetail = ({ data }) => {
 
     return(
         <div className="containerProduct">
-            <h3>{data.nombre}</h3>
+            <h2>Detalle</h2>
+            <h3>{data.name}</h3>
             <h3>{data.price}</h3>
         </div>
     )
