@@ -8,8 +8,8 @@ const Header = () => {
 
     const secciones = [
         {id:0, nombre: 'Selecciones', ruta: '/seccion/selecciones'},
-        {id:1, nombre: 'Futbol Argentino', ruta: '/seccion/futbolargentino'},
-        {id:2, nombre: 'Europa', ruta: '/seccion/europa'},
+        {id:1, nombre: 'Futbol Argentino', ruta: '/seccion/futbolArgentino'},
+        {id:2, nombre: 'Europa', ruta: '/seccion/futbolEuropa'},
         {id:3, nombre: 'Seccion 4', ruta: '/seccion/seccion4'},
     ]
 

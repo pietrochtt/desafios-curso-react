@@ -11,8 +11,8 @@ const productos = [
     {id: 2, name: "Remera Oficial Manchester City", price: "$23000", seccion: "futbolEuropa"},
     {id: 3, name: "Remera Oficial Talleres", price: "$19000", seccion: "futbolArgentino"},
     {id: 4, name: "Remera Oficial Liverpool", price: "$22000", seccion: "futbolEuropa"},
-    {id: 5, name: "Remera Oficial Argentina", price: "$23000", seccion: "Selecciones"},
-    {id: 6, name: "Remera Oficial Brasil", price: "$23000", seccion: "Selecciones"},
+    {id: 5, name: "Remera Oficial Argentina", price: "$23000", seccion: "selecciones"},
+    {id: 6, name: "Remera Oficial Brasil", price: "$23000", seccion: "selecciones"},
 ]
 const ItemListContainer = ({oferta}) => {
 
