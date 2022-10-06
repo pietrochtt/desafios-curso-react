@@ -7,7 +7,7 @@ export const Item = ({data}) => {
     return(
         <Link to={`/producto/${data.id}`} className="producto">
             <h3>{data.name}</h3>
-            <h4>{data.price}</h4>
+            <h4>${data.price}</h4>
         </Link>
     )
 }
