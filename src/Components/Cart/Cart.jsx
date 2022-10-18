@@ -41,7 +41,7 @@ export const Cart = ({}) => {
                 cart.map(product => <ItemCart key={product.id} product={product}/>)
             }
             <p>Precio Total de compra: ${totalPrice()}</p>
-            <button onClick={handleClick}>Confirmar Compra</button>
+            <Link to='/form' onClick={handleClick}>Confirmar Compra</Link>
         </>
     )
 }
